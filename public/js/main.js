@@ -1,6 +1,6 @@
 // Source: public/src/js/app.js
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
-var defaultCurrency = localStorage.getItem('insight-currency') || 'RBR';
+var defaultCurrency = localStorage.getItem('insight-currency') || 'COVAL';
 
 angular.module('insight',[
   'ngAnimate',
@@ -347,7 +347,7 @@ angular.module('insight.system').controller('HeaderController',
     $rootScope.currency = {
       factor: 1,
       bitstamp: 0,
-      symbol: 'RBR'
+      symbol: 'COVAL'
     };
 
     $scope.menu = [{

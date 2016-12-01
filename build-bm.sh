@@ -33,7 +33,7 @@
         echo $create
     fi
     #cf ic run -p 3027:3027 -m 2048 --name insite-api-coval registry.ng.bluemix.net/$1/insight-api-coval
-    bluemix ic group-create --name coval-explorer \
+    cf ic group create --name coval-explorer \
                 --publish 3027 --memory 2048 --auto \
                 --hostname coval-explorer \
                 --domain mybluemix.net \

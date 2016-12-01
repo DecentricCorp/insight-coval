@@ -1,2 +1,2 @@
-rm -rf ~/.insight/txs
-rm -rf ~/.insight/blocks
+rm -rf ~/.coval-insight/txs
+rm -rf ~/.coval-insight/blocks

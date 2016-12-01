@@ -64,7 +64,7 @@
             <td>
               <a class="ellipsis" href="/tx/{{tx.txid}}">{{tx.txid}}</a>
             </td>
-            <td class="text-right"><span class="ellipsis">{{ tx.valueOut ? $root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' RBR' : 'No Inputs (Newly Generated Coins) '}}</span></td>
+            <td class="text-right"><span class="ellipsis">{{ tx.valueOut ? $root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' COVAL' : 'No Inputs (Newly Generated Coins) '}}</span></td>
           </tr>
           </tbody>
         </table>
@@ -73,9 +73,9 @@
 
       <div class="col-xs-12 col-md-4 col-gray">
         <h2 translate>About</h2>
-        <p translate><strong>RibbitExplorer</strong>  is an <a href="http://live.insight.is/"
-          target="_blank">open-source Ribbit Rewards blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by bitcoind RPC.  Check out the <a href="http://github.com/bitpay/insight" target="_blank">source code</a>.</p>
-        <p translate><strong>RibbitExplorer</strong> is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight/issues" target="_blank">github issue tracker</a>.</p>
+        <p translate><strong>CovalExplorer</strong>  is an <a href="http://live.insight.is/"
+          target="_blank">open-source Circuits of Value blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by bitcoind RPC.  Check out the <a href="http://github.com/bitpay/insight" target="_blank">source code</a>.</p>
+        <p translate><strong>CovalExplorer</strong> is soon going to move to Counterparty, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight/issues" target="_blank">github issue tracker</a>.</p>
         <div id="powered" class="row">
           <div class="powered-text">
             <small class="text-muted" translate>Powered by</small>
