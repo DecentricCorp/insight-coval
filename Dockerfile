@@ -10,6 +10,8 @@ RUN git clone https://github.com/DecentricCorp/insight-coval.git
 WORKDIR /usr/src/insight-coval/
 RUN git pull
 RUN npm install -g n
+RUN n 0.12.18
+RUN npm install leveldown
 RUN n 0.10.36
 RUN npm install
 # -- Expose ports
