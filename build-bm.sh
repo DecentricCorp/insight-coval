@@ -57,7 +57,7 @@
                         --domain mybluemix.net \
                         --min 1 --max 2 --desired 1 \
                         --volume legacyledgershare:/root/.coval-insight \
-                        registry.ng.bluemix.net/$1/coval-explorer
+                        registry.ng.bluemix.net/$namespace/coval-explorer
         }
 
         
