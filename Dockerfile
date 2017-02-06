@@ -17,7 +17,7 @@ RUN npm install
 # -- Expose ports
 WORKDIR /usr/src/insight-coval/
 EXPOSE 3027
-CMD [ "bash", "/usr/src/insight-coval/start2" ]
+CMD [ "bash", "/usr/src/insight-coval/resetStart" ]
 #ENTRYPOINT ["a8sidecar", "node", "index.js"]
 
 
